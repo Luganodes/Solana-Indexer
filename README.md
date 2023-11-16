@@ -12,7 +12,7 @@
   <p align="center">
     A fast, efficient, and open-source Solana blockchain indexer designed to query, analyze, and monitor on-chain data.
     <br />
-    <a href="#readme-top"><strong>Explore the docs »</strong></a>
+    <a href="https://luganodes.github.io/Solana-Indexer/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Luganodes/Solana-Indexer/issues">Report Bug</a>
