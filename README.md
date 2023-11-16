@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gitlab.com/luganodes/open-source-internal/solana-indexer">
+  <a href="https://github.com/Luganodes/Solana-Indexer">
     <img src="./images/logo.png" alt="Solana Indexer Logo"  height="75">
   </a>
 
@@ -15,9 +15,9 @@
     <a href="#readme-top"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://gitlab.com/luganodes/open-source-internal/solana-indexer/-/issues">Report Bug</a>
+    <a href="https://github.com/Luganodes/Solana-Indexer/issues">Report Bug</a>
     ·
-    <a href="https://gitlab.com/luganodes/open-source-internal/solana-indexer/-/issues">Request Feature</a>
+    <a href="https://github.com/Luganodes/Solana-Indexer/issues">Request Feature</a>
   </p>
 </div>
 
@@ -64,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Banner](./images/banner.png)](https://gitlab.com/luganodes/open-source-internal/solana-indexer)
+[![Banner](./images/banner.png)](https://github.com/Luganodes/Solana-Indexer)
 
 Introducing our open-source Solana Indexer - a robust and scalable solution designed to help you effortlessly navigate the ever-growing Solana blockchain. Built with performance and usability in mind, our indexer rapidly fetches, processes, and stores on-chain data, making it instantly queryable for analytics, monitoring, or other applications. Whether you're a developer looking to integrate Solana data into your app, an enterprise in need of a reliable data backend, or simply a blockchain enthusiast wanting insights, our Solana Indexer is the tool you've been waiting for. Get started now and unlock the full potential of blockchain data.
 
@@ -119,7 +119,7 @@ Docker is optional but recommended for containerized deployment. Follow the inst
 
 1. Clone the repo
    ```sh
-   git clone https://gitlab.com/luganodes/open-source-internal/solana-indexer.git
+   git clone https://github.com/Luganodes/Solana-Indexer.git
    ```
 
 2. Change into the directory
@@ -136,7 +136,7 @@ Docker is optional but recommended for containerized deployment. Follow the inst
     ```sh
     touch .env
     ```
-    **For running this project successfully you'll need to create a `.env` file like [`.env.sample`](https://gitlab.com/luganodes/open-source-internal/solana-indexer/-/blob/main/.env.sample?ref_type=heads).**
+    **For running this project successfully you'll need to create a `.env` file like [`.env.sample`](ttps://github.com/Luganodes/Solana-Indexer/blob/main/.env.sample).**
 
 ### Environment Variables Description
 
@@ -307,14 +307,14 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feat/AmazingFeature`)
 5. Open a Pull Request
 
-To start contributing, check out [`CONTRIBUTING.md`](https://gitlab.com/luganodes/open-source-internal/solana-indexer/-/blob/main/CONTRIBUTING.md?ref_type=heads) . New contributors are always welcome to support this project.
+To start contributing, check out [`CONTRIBUTING.md`](https://github.com/Luganodes/Solana-Indexer/blob/main/CONTRIBUTING.md) . New contributors are always welcome to support this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://gitlab.com/luganodes/open-source-internal/solana-indexer/-/blob/main/LICENSE?ref_type=heads) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/Luganodes/Solana-Indexer/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
