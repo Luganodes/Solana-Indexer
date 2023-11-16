@@ -9,7 +9,7 @@
         "start": "node ./src/index",
         "dev": "nodemon ./src/index.js",
         "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
-        "jsdoc": "rm -r docs && jsdoc -c jsdoc.json && dir=docs/solana-crons/1.0.0 && mkdir -p $dir/images && mv $dir/*.png $dir/images && mv $dir/* docs && rm -r docs/solana-crons",
+        "jsdoc": "rm -rf docs && jsdoc -c jsdoc.json && dir=docs/solana-crons/1.0.0 && mkdir -p $dir/images && mv $dir/*.png $dir/images && mv $dir/* docs && rm -r docs/solana-crons",
         "prepare": "husky install",
         "pre-commit": "lint-staged",
         "format-onCommit": "prettier-eslint --write \"*.{js,jsx}\""
