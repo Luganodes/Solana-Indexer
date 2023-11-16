@@ -1,0 +1,47 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recurseDepth": 10,
+    "source": {
+        "include": ["src", "package.json", "README.md"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true,
+        "default": {
+            "staticFiles": {
+                "include": ["./images"],
+                "destination": "images"
+            }
+        }
+    },
+    "opts": {
+        "encoding": "utf8",
+        "readme": "./README.md",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true,
+        "template": "node_modules/clean-jsdoc-theme",
+        "theme_opts": {
+            "default_theme": "fallback-dark",
+            "homepageTitle": "Documentation",
+            "title": "Solana Indexer Documentation",
+            "includeFilesListInHomepage": true,
+            "meta": [
+                {
+                    "name": "author",
+                    "content": "Luganodes"
+                },
+                {
+                    "name": "description",
+                    "content": "Best Clean and minimal JSDoc 3 Template/Theme"
+                }
+            ]
+        }
+    },
+    "markdown": {
+        "hardwrap": false,
+        "idInHeadings": true
+    }
+}
