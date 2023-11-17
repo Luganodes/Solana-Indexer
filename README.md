@@ -12,8 +12,6 @@
   <p align="center">
     A fast, efficient, and open-source Solana blockchain indexer designed to query, analyze, and monitor on-chain data.
     <br />
-    <a href="#readme-top"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/Luganodes/Solana-Indexer/issues">Report Bug</a>
     ·
@@ -237,8 +235,6 @@ docker-compose down
 
 ### Delegator Schema
 
-### Delegator Schema
-
 | Field               | Type    | Required | Default | Description                                        |
 |---------------------|---------|----------|---------|----------------------------------------------------|
 | `delegatorId`       | String  | Yes      | -       | Public key for the delegator                       |
@@ -249,8 +245,6 @@ docker-compose down
 | `apr`               | Number  | No       | `0`     | APR for the delegator                              |
 | `stakedAmount`      | Number  | No       | `0`     | The amount that is staked                          |
 | `activationEpoch`   | Number  | No       | `0`     | Epoch when the staking was activated               |
-
-### Reward Schema
 
 ### Reward Schema
 
@@ -274,8 +268,6 @@ docker-compose down
 
 ### Transaction Schema
 
-### Transaction Schema
-
 | Field              | Type    | Required | Default | Description                                        |
 |--------------------|---------|----------|---------|----------------------------------------------------|
 | `delegatorId`      | String  | Yes      | -       | Public key of the delegator                        |
@@ -290,6 +282,8 @@ docker-compose down
 ## How it works?
 
 The rewards are calulated from the start epoch, as we loop through each entry in our MongoDB to fetch the rewards of delegators for the specific epoch
+
+### [Constants and Functions](https://luganodes.github.io/Solana-Indexer/global.html)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -315,14 +309,5 @@ To start contributing, check out [`CONTRIBUTING.md`](https://github.com/Luganode
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/Luganodes/Solana-Indexer/blob/main/LICENSE) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Luganodes - [@luganodes](https://twitter.com/luganodes) - email@example.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
